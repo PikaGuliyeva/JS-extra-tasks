@@ -168,3 +168,81 @@
 // bankAccount.deposit(200);
 // bankAccount.withdraw(100);
 // console.log(bankAccount.balance);
+
+// Task 11
+// const calculator = {
+//     a: 10,
+//     b: 5,
+// }
+// calculator.add = function() {
+//     return this.a + this.b;
+// }
+// calculator.subtract = function() {
+//     return this.a - this.b; 
+// }
+// console.log(calculator.add());
+// console.log(calculator.subtract());
+
+// Task 12
+// function countProperties(obj) {
+//     return Object.keys(obj).length;
+// }
+// const person = {
+//     name: "Pika",
+//     age: 28,
+//     city: "Baku"
+// };
+// console.log(countProperties(person)); 
+
+// Task 13
+// const cart = {
+//     apple: 3,
+//     banana: 2,
+//     milk: 5,
+//     bread: 1,
+// }
+// const numbers = Object.values(cart);
+// const total = numbers.reduce((a,b) => a+b)
+// console.log(total);
+
+// Task 14
+// const scores = {
+//     math: 90, 
+//     english: 85,
+//     physics: 70,
+// }----------????????
+
+// Task 15
+// const entries = [["title", "JavaScript Dərsləri"], ["duration", "2 saat"], ["level", "Orta"]];
+// const obj = Object.fromEntries(entries);
+// obj.isCompleted = true;
+// console.log(obj);
+
+// Task 16
+// function product (title, price, discount = 0) {
+//     this.getFinalPrice = function() {
+//         return price - (price * discount / 100);
+//     }
+// }
+//     const product1 = new product ("Telefon", 800, 10);
+//     const product2 = new product ("Planset", 500)
+
+// console.log(product1.getFinalPrice());
+// console.log(product2.getFinalPrice());
+
+// Task 17
+// // Aşağıdakı kodu təhlil edin:
+// const timer = { seconds: 10, 
+//     start: function() { 
+//         console.log(this.seconds); } };
+// let run = timer.start;
+// run(); // Niyə undefined çıxır? ?????????
+
+// Task 18
+// ????
+
+// Task 19
+// function student (name, grades = []) {
+//     this.name = name;
+//     this.grades = grades;
+// }
