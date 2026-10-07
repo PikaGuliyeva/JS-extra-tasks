@@ -271,3 +271,148 @@
 // }?????
 
 // 14, 18, 20 - Yaza bilmediklerim
+
+
+
+
+// Arrays in Javascript
+// Task 1
+// let numbers = [];
+// numbers.push(10, 20, 30);
+// console.log(numbers);
+
+// Task 2
+// let nums = [5, 10, 15, 20];
+// let pops = nums.pop();
+// console.log(nums);
+// console.log(pops);
+
+// Task 3
+// let fruits = ["banan", "alma"];
+// let unshifts = fruits.unshift("gilas");
+// console.log(fruits);
+
+// Task 4
+// let colours = ["qirmizi", "yasil", "mavi"];
+// let shifts = colours.shift();
+// console.log(colours);
+
+// Task 5
+// let array1= [1, 2];
+// let array2 = [3, 4];
+// let fullArray = array1.concat(array2);
+// console.log(fullArray);
+
+// Task 6
+// let letters = ["a", "b", "c", "d", "e"];
+// let sliced = letters.slice(1, 3);
+// console.log(sliced);
+
+// Task 7
+// let nums =  [10, 20, 50, 60];
+// let spliced = nums.splice(2, 0, 30, 40);
+// console.log(nums);
+
+// Task 8
+// let langs = ["Python", "JavaScript", "C++"];
+// let index = langs.indexOf("JavaScript");
+// console.log(index);
+
+// Task 9
+// let nums = [5, 12, 8, 130, 44];
+// let result = nums.includes(8);
+// console.log(result);
+
+// Task 10
+// let languages =  ["HTML", "CSS", "JS"] ;
+// let joined = languages.join("-");
+// console.log(joined);
+
+// Task 11
+// let nums = [1, 2, 3, 4, 5];
+// let reversed = nums.reverse();
+// console.log(reversed);
+
+// Task 12
+// let numbers = [40, 100, 1, 5, 25];
+// numbers.sort((a, b) => a - b);
+// console.log(numbers);
+
+// Task 13
+// let nums = [1, 2, 3, 4];
+// let mapped = nums.map(x => x * 2);
+// console.log(mapped);
+
+// Task 14
+// let numbers = [10, 15, 20, 25, 30];
+// let filtered = numbers.filter(x => x > 20);
+// console.log(filtered);
+
+// Task 15
+// let numbers = [5, 12, 8, 130, 44];
+// let result = numbers.find(x => x > 10);
+// console.log(result);
+
+// Task 16
+// let numbers = [45, 60, 75, 90];
+// let result = numbers.findIndex(x => x > 50);
+// console.log(result);
+
+// Task 17
+// let numbers =  [5, 10, 15, 20] ;
+// let sum = numbers.reduce ((a,b) => a + b);
+// console.log(sum);
+
+// Task 18
+// let numbers = [1, 2, 3, 2, 1, 2] ;
+// let result = numbers.lastIndexOf(2);
+// console.log(result);
+
+// Task 19
+// let names = ["ali", "aysel", "mammad"];
+// let uppercaseNames = names.map(name => name.toUpperCase());
+// console.log(uppercaseNames);
+
+// Task 20
+// let objects =  [{name: "A", age: 16}, {name: "B", age: 22}, {name: "C", age: 19}];
+// let filteredObjects = objects.filter(x => x.age >= 18);
+// console.log(filteredObjects);
+
+// Task 21
+// let fruits =  ["Alma", "Banan", "Gilas", "Qarpız"] ;
+// let splicedFruits = fruits.splice(1, 2);
+// console.log(fruits);
+// console.log(splicedFruits);\
+
+// Task 22
+// let arr1 = [15, 40];
+// let arr2 = [10, 30];
+// let fullArray = arr1.concat(arr2);
+// fullArray.sort((a, b) => a - b);
+// console.log(fullArray);
+
+// Task 23
+// let numbers = [2, 3, 4] ;
+// let result = numbers.reduce((a, b) => a * b);
+// console.log(result);
+
+// Task 24
+// let arr = ["apple", "banana", "cherry", "date"];
+// let result = arr.filter(item => item.includes("a"));
+// console.log(result);
+
+// Task 25
+// let products = [
+//     {name: "Körpük", price: 100},
+//     {name: "Ayaqqabı", price: 200}
+// ]
+// let result = products.map(product => product.price * 1.18);
+// console.log(result);
+
+// Task 26
+// let obj =  [
+//         {id: 101, title: "Xəbər 1"}, 
+//         {id: 102, title: "Xəbər 2"}
+// ] 
+// let result = obj.find(x => x.id === 102);
+// console.log(result);
