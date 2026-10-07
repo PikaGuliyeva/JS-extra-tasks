@@ -242,7 +242,32 @@
 // ????
 
 // Task 19
-// function student (name, grades = []) {
-//     this.name = name;
-//     this.grades = grades;
+// function Student(name, grades = []) {   
+//     this.addGrade = function(grade) {
+//         grades.push(grade);
+//     };
+
+//     this.getAverage = function() {
+//         return grades.reduce((sum, grade) => sum + grade) / grades.length;
+//     };
 // }
+// const student1 = new Student("Pika");
+
+// student1.addGrade(80);
+// student1.addGrade(90);
+// student1.addGrade(70);
+
+// console.log(student1.getAverage()); 
+
+// Task 20
+// store = {
+//     inventory : {
+//         phone: 10,
+//         laptop: 5,
+//         tablet: 8
+//     },
+//     sellItem: function(item, quantity) {}
+        
+// }?????
+
+// 14, 18, 20 - Yaza bilmediklerim
