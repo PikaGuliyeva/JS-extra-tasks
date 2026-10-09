@@ -382,7 +382,7 @@
 // let fruits =  ["Alma", "Banan", "Gilas", "Qarpız"] ;
 // let splicedFruits = fruits.splice(1, 2);
 // console.log(fruits);
-// console.log(splicedFruits);\
+// console.log(splicedFruits);
 
 // Task 22
 // let arr1 = [15, 40];
@@ -416,3 +416,73 @@
 // ] 
 // let result = obj.find(x => x.id === 102);
 // console.log(result);
+
+// Task 27
+// let word = "javascript";
+// let result = word.split("").reverse().join("");
+// console.log(result);
+
+// Task 28
+// let nums = [10, 20, 30, 40, 50, 60];
+// let result = nums.slice(-3);
+// console.log(result);
+
+// Task 29
+// let nums = [12, 45, 2, 89, 34] ;
+// let result = nums.reduce((max, num) => {
+//     return num > max ? num : max;
+// })
+// console.log(result);
+
+// Task 30
+// let words = ["kitab", "qələm", "kompüter", "ev", "proqramlaşdırma"];
+// let result = words.filter(item => item.length > 5 );
+// console.log(result);
+
+// Task 31
+// const cart = [
+//       { name: "Noutbuk", price: 1500, inStock: true },
+//       { name: "Maus", price: 20, inStock: false },
+//       { name: "Klaviatura", price: 80, inStock: true }
+//     ];
+//     const result = cart.filter(items => items.inStock === true).map(items => items.price).reduce((a,b) => {
+//         return a+b 
+//     })
+//     console.log(result);
+
+// Task 32
+// let nums = [1, 2, 2, 3, 4, 4, 5, 1];
+// let result = nums.filter((num, index) => {
+//     return nums.indexOf(num) === index;
+// })
+// console.log(result);
+
+// Task 33
+    // const students = [
+    //   { name: "Əli", grade: "A" },
+    //   { name: "Leyla", grade: "B" },
+    //   { name: "Aysel", grade: "A" }
+    // ];
+    // const result = students.reduce(()) ???????????
+
+    // Task 34
+    // let nums = [[3, 9], [1, 5], [10, 2]];
+    // let nums.reduce (())??????????
+
+
+// Task 35
+    // let users = [
+    //   { id: 1, name: "Əli", status: "pending" },
+    //   { id: 2, name: "Leyla", status: "pending" },
+    //   { id: 3, name: "Aysel", status: "pending" }
+    // ];
+    // let result = users.findIndex(items => items.id === 2).splice(users[1], 0, users.status = "approved");
+    // console.log(result);  Error veroir??????
+    
+// Yaza bilmediklerim 33, 34, 35
+
+
+    
+
+
+
